@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Добавить мобильный телефон</title>
+</head>
+<body>
+    <h1>Добавить мобильный телефон</h1>
+    <form method="POST" action="/add_phone">
+        <label for="manufacturer">Производитель:</label>
+        <input type="text" name="manufacturer" required><br>
+
+        <label for="model">Модель:</label>
+        <input type="text" name="model" required><br>
+
+        <label for="release_year">Год выпуска:</label>
+        <input type="number" name="release_year" required><br>
+
+        <label for="screen_size">Диагональ экрана:</label>
+        <input type="text" name="screen_size" required><br>
+
+        <input type="submit" value="Добавить">
+    </form>
+
+    <h2><a href="/list_phones">Просмотреть список мобильных телефонов</a></h2>
+</body>
+</html>
